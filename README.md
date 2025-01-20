@@ -5,6 +5,13 @@ A Leiningen template inspired by [Clojure GraalVM project](https://github.com/cl
 The idea is to provide a simple boilerplate project to validate if a lib is compatible with GraalVM native image
 generation process.
 
+## Userful resources while debugging the native image generation process
+
+- [Graal Docs (Clojure)](https://github.com/clj-easy/graal-docs): Scripts and tips to get Clojure latest working with
+  GraalVM latest
+- [GraalVM Clojure](https://github.com/clj-easy/graalvm-clojure): This project contains a set of "hello world" projects
+  to verify which Clojure libraries do actually compile and produce native images under GraalVM.
+
 ## Usage
 
 1. Create a new project based on the template:
